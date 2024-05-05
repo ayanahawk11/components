@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web Components | Hayltun Study Abroad</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    />
+    <link href="../fonts/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+  </head>
+  <body class="component-page">
+    <header class="component-page__header">
+      <div class="component-page__header-container">
+        <h1 class="wordmark">
+          <span class="wordmark__line">Hayltun</span>
+          <span class="wordmark__line">Study Abroad Program</span>
+        </h1>
+        <nav class="sidebar-nav component-page__nav">
+          <section class="sidebar-nav__section">
+            <h2 class="sidebar-nav__heading">
+              <a href="#typography">Typography</a>
+            </h2>
+            <ul class="sidebar-nav__list">
+              <li><a href="#typography">body</a></li>
+              <li><a href="#headings">h1, h2, h3, ...</a></li>
+              <li><a href="#links">a</a></li>
+            </ul>
+          </section>
+          <section class="sidebar-nav__section">
+            <h2 class="sidebar-nav__heading"><a href="#atoms">Atoms</a></h2>
+            <ul class="sidebar-nav__list">
+              <li><a href="#wordmark">BUTTONS</a></li>
+              <li><a href="#nav-toggle">NAVBAR</a></li>
+              <li><a href="#section-heading">SECTION-HEADING</a></li>
+              <li><a href="#action-link">MAIN-BODY</a></li>
+              <li><a href="#icon--circle">FOOTER</a></li>
+            </ul>
+          </section>
+          <section class="sidebar-nav__section">
+            <h2 class="sidebar-nav__heading">
+              <a href="#page-header">Nav-Bar</a>
+            </h2>
+            <ul class="sidebar-nav__list">
+              <li><a href="#page-header">page-header</a></li>
+            </ul>
+          </section>
+          <section class="sidebar-nav__section">
+            <h2 class="sidebar-nav__heading">
+              <a href="main-nav">Main Nav</a>
+            </h2>
+            <ul class="sidebar-nav__list">
+              <li><a href="#main-nav">main-nav</a></li>
+              <li><a href="#main-nav__list">main-nav__list</a></li>
+            </ul>
+          </section>
+        
+         
+        </nav>
+      </div>
+    </header>
+
+    <main class="container component-page__main">
+      <h1>Web Design System</h1>
+      <p>
+        This is a collection of components based on my study of the design
+        system of the
+        <a href="https://wolffolins.com">Wolff Olins</a> website.
+      </p>
+
+      <section class="page-section" id="typography">
+        <h2 class="component-page__section-heading">Typography</h2>
+
+        <article id="body-copy" class="component component--is-done">
+          <h3 class="component__name">body</h3>
+       
+          <div class="component__code">
+            <p>
+              This brand was made from a non-profit. 
+            </p>
+          </div>
+        </article>
+
+        <article id="headings" class="component component--is-done">
+          <h3 class="component__name">h2, h3, h4</h3>
+          <div class="component__img">
+            <img srcset="./img/h2@2x.png 2x" src="./img/h2@2x.png" alt="h2" />
+            <img srcset="./img/h3@2x.png 2x" src="./img/h3@2x.png" alt="h3" />
+            <img srcset="./img/h4@2x.png 2x" src="./img/h4@2x.png" alt="h4" />
+          </div>
+          <div class="component__code">
+            <h2>Changing how the world moves</h2>
+            <h3>You might also like</h3>
+            <h4>The Met</h4>
+          </div>
+        </article>
+        <article id="links" class="component component--is-done">
+          <h3 class="component__name">Links</h3>
+         
+        </article>
+      </section>
+
+      <!-- Atoms -->
+      <section id="atoms" class="page-section">
+        <h2 class="component-page__section-heading">Atoms</h2>
+        <article id="wordmark" class="component component--is-done">
+          <h3 class="component__name">.wordmark</h3>
+          <img
+            class="component__img"
+            src="./img/logo1.png"
+            alt="Wordmark"
+          />
+          <div class="component__code">
+            <h1 class="wordmark">
+              <span class="wordmark__line">Hayltun </span>
+              <span class="wordmark__line">Study Abroad</span>
+            </h1>
+          </div>
+        </article>
+
+        <article id="nav-toggle" class="component component--is-done">
+          <h3 class="component__name">buttons</h3>
+
+          <div class="component__img">
+            <img
+              srcset="./img/navdot@2x.png 2x"
+              src="./img/button1.png"
+              src="./img/button2.png"
+              alt="nav dot"
+            />
+            <img
+              srcset="./img/navdot@2x.png 2x"
+    
+              src="./img/button2.png"
+              alt="nav dot"
+            />
+          </div>
+         
+        </article>
+
+        <article id="section-heading" class="component component--is-done">
+          <h3 class="component__name">.section-heading</h3>
+          <div class="component__img">
+            <img
+              srcset="./img/section-heading@2x.png 2x"
+              src="./img/headerfont.png"
+              alt="section heading"
+            />
+            <img
+              srcset="./img/section-heading@2x.png 2x"
+              src="./img/header.png"
+              alt="section heading"
+            />
+          </div>
+         
+        </article>
+
+
+        
+      </section>
+
+      <!-- page-header -->
+      <section class="page-section">
+        <h2 id="page-header" class="component-page__section-heading">
+         NAVBAR
+        </h2>
+        <article class="component component--is-done">
+          <h3 class="component__name">.navbar</h3>
+          <div class="component__img">
+            <img
+              srcset="./img/page-header@2x.png 2x"
+              src="./img/NAVbar.png"
+              alt="page header"
+            />
+          </div>
+          <div class="component__code">
+            <header class="page-header">
+             
+              <nav>
+                <a href="#!" class="nav-toggle">Menu</a>
+              </nav>
+            </header>
+          </div>
+        </article>
+      </section>
+
+      <section class="page-section">
+        <h2 id="main-nav" class="component-page__section-heading">Main Body</h2>
+
+        <article class="component component--is-done">
+          <h3 class="component__name">.main-body</h3>
+
+          <div class="component__img">
+            <img
+              srcset="./img/main-nav@2x.png 2x"
+              src="./img/body.png"
+              alt="Main Nav"
+            />
+            <img
+            srcset="./img/main-nav@2x.png 2x"
+            src="./img/body1.png"
+            alt="Main Nav"
+          />
+          </div>
+         
+        </article>
+
+        <article id="main-nav__list" class="component component--is-done">
+          <h3 class="component__name"><div class="footer"></div></h3>
+
+          <div class="component__img">
+            <img
+              srcset="./img/main-nav__list@2x.png 2x"
+              src="./img/footer.png"
+              alt="main nav"
+            />
+          </div>
+          
+        </article>
+      </section>
+
+      
+    </main>
+  </body>
+</html>
